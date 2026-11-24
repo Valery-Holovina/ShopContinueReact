@@ -1,0 +1,83 @@
+.promoSection,
+.orderSummary {
+  margin-top: 16px;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.promoSection h3,
+.orderSummary h3 {
+  margin: 0 0 14px;
+  color: var(--text);
+  font-size: 17px;
+}
+
+.promoSection form {
+  display: flex;
+  gap: 10px;
+}
+
+.promoSection input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--background);
+  color: var(--text);
+  outline: none;
+}
+
+.promoSection input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.promoSection button {
+  padding: 11px 17px;
+  border: none;
+  border-radius: 9px;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  transition: background .2s;
+}
+
+.promoSection button:hover {
+  background: var(--accent-hover);
+}
+
+.orderSummary p {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 10px 0;
+  color: var(--muted);
+}
+
+.orderSummary h3:last-child {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--text);
+}
+
+@media (max-width: 480px) {
+  .promoSection form {
+    flex-wrap: wrap;
+  }
+
+  .promoSection input {
+    width: 100%;
+  }
+
+  .promoSection button {
+    width: 100%;
+  }
+}
+

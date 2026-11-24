@@ -1,0 +1,48 @@
+
+.page {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: var(--text);
+}
+
+.empty {
+  padding: 60px 20px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.emptyIcon {
+  display: block;
+  margin-bottom: 15px;
+  color: #e53955;
+  font-size: 55px;
+}
+
+.empty h2 {
+  margin-bottom: 10px;
+}
+
+.empty p {
+  margin-bottom: 20px;
+  color: var(--muted);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: var(--accent-hover);
+}

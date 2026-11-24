@@ -1,0 +1,13 @@
+.avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .name {
+    display: none; /* на телефоні лишаємо тільки аватар */
+  }
+}

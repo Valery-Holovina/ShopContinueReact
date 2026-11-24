@@ -1,0 +1,25 @@
+.page {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.code {
+  font-size: 80px;
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.page h1 {
+  margin: 10px 0 4px;
+}
+
+.page p {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.link {
+  color: var(--accent);
+  font-weight: 700;
+}

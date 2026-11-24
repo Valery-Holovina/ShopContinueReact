@@ -1,0 +1,22 @@
+
+.section {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+@media (max-width: 480px) {
+  .section {
+    margin-top: 35px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

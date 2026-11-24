@@ -1,0 +1,26 @@
+.control {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button:hover:not(:disabled) {
+  color: var(--accent);
+}
+
+.value {
+  min-width: 32px;
+  font-weight: 700;
+  text-align: center;
+}

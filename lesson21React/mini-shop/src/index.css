@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #292724;
+  background: #f7f6f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --background: #f7f6f2;
+  --surface: #ffffff;
+  --surface-soft: #f0ede7;
+
+  --text: #292724;
+  --muted: #858078;
+
+  --accent: #a66b52;
+  --accent-hover: #89543e;
+  --accent-soft: #f3e9e3;
+  --accent-bg: #f3e9e3;
+  --accent-border: #c69b85;
+
+  --sale: #f3e5d9;
+  --line: #e9e5df;
+  --border: #e9e5df;
+
+  --radius: 14px;
+  --shadow: 0 3px 12px rgba(45, 37, 30, 0.05);
+  --shadow-hover: 0 10px 25px rgba(45, 37, 30, 0.10);
+
+  --social-bg: #f0ede7;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #ead5c8;
+  color: #292724;
+}
